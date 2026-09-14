@@ -1,34 +1,32 @@
-﻿using CapaDatos;
-using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Text;
+using System.Data.SqlClient;
+using CapaDatos;
 
 namespace CapaNegocio
 {
-    public class NegocioProducto
+    public class NegocioCategoria
     {
         ServicioDB pr = new ServicioDB();
 
 
-        public DataTable MostrarCategorias()
+        public DataTable MostrarProductos()
         {
-            return pr.MostrarCategoria(); //Invocacion del metodo que muestra las categorias
+            return pr.MostrarProductos(); //Invocacion del metodo que muestra los productos
         }
 
-        public void InsertData(string Nombre, string Descripcion)
+        public void InsertData(string Nombre, int Stock, decimal Precio, int IdCategoria)
         {
-            pr.InsertarCategoria(Nombre, Descripcion);
+            pr.InsertarProducto(Nombre, Stock, Precio, IdCategoria);
         }
 
-        public void UpdateData(int IdCategoria, string Nombre, string Descripcion)
+        public void UpdateData(int IdProducto, string Nombre, int Stock, decimal Precio, int IdCategoria)
         {
-            pr.ActualizarCategoria(IdCategoria, Nombre, Descripcion);
+            pr.ActualizarProducto(IdProducto, Nombre, Stock, Precio, IdCategoria);
         }
 
-        public void DeleteData(int IdCategoria)
+        public void DeleteData(int IdProducto)
         {
-            pr.EliminarCategoria(IdCategoria);
+            pr.EliminarProducto(IdProducto);
         }
     }
 }
