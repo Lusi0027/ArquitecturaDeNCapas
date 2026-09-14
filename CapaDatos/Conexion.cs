@@ -4,7 +4,7 @@ using System.Data.SqlClient;
 
 namespace CapaDatos
 {
-    internal class Conexion
+    public class Conexion
     {
         // Cadena de conexión como propiedad privada
         private string cadenaConexion = "Data Source=LUSI;Initial Catalog=ArqNCapas;User ID=Lusi;Password=2007;Encrypt=False;TrustServerCertificate=True";
