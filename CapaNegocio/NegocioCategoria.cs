@@ -1,3 +1,4 @@
+﻿
 using CapaDatos;
 using System;
 using System.Collections.Generic;
@@ -6,7 +7,7 @@ using System.Text;
 
 namespace CapaNegocio
 {
-    public class NegocioProducto
+    public class NegocioCategoria
     {
         ServicioDB pr = new ServicioDB();
 
@@ -32,4 +33,3 @@ namespace CapaNegocio
         }
     }
 }
-
