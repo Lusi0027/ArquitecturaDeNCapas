@@ -1,0 +1,15 @@
+C:\Users\lusia\OneDrive - Universidad Central del Este\Septiembre-Diciembre 2026\Arquitectura de software\Proyectos en C#\CapaNegocio\bin\Debug\net10.0\CapaNegocio.deps.json
+C:\Users\lusia\OneDrive - Universidad Central del Este\Septiembre-Diciembre 2026\Arquitectura de software\Proyectos en C#\CapaNegocio\bin\Debug\net10.0\CapaNegocio.dll
+C:\Users\lusia\OneDrive - Universidad Central del Este\Septiembre-Diciembre 2026\Arquitectura de software\Proyectos en C#\CapaNegocio\bin\Debug\net10.0\CapaNegocio.pdb
+C:\Users\lusia\OneDrive - Universidad Central del Este\Septiembre-Diciembre 2026\Arquitectura de software\Proyectos en C#\CapaNegocio\bin\Debug\net10.0\CapaDatos.dll
+C:\Users\lusia\OneDrive - Universidad Central del Este\Septiembre-Diciembre 2026\Arquitectura de software\Proyectos en C#\CapaNegocio\bin\Debug\net10.0\CapaDatos.pdb
+C:\Users\lusia\OneDrive - Universidad Central del Este\Septiembre-Diciembre 2026\Arquitectura de software\Proyectos en C#\CapaNegocio\obj\Debug\net10.0\CapaNegocio.csproj.AssemblyReference.cache
+C:\Users\lusia\OneDrive - Universidad Central del Este\Septiembre-Diciembre 2026\Arquitectura de software\Proyectos en C#\CapaNegocio\obj\Debug\net10.0\CapaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lusia\OneDrive - Universidad Central del Este\Septiembre-Diciembre 2026\Arquitectura de software\Proyectos en C#\CapaNegocio\obj\Debug\net10.0\CapaNegocio.AssemblyInfoInputs.cache
+C:\Users\lusia\OneDrive - Universidad Central del Este\Septiembre-Diciembre 2026\Arquitectura de software\Proyectos en C#\CapaNegocio\obj\Debug\net10.0\CapaNegocio.AssemblyInfo.cs
+C:\Users\lusia\OneDrive - Universidad Central del Este\Septiembre-Diciembre 2026\Arquitectura de software\Proyectos en C#\CapaNegocio\obj\Debug\net10.0\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\lusia\OneDrive - Universidad Central del Este\Septiembre-Diciembre 2026\Arquitectura de software\Proyectos en C#\CapaNegocio\obj\Debug\net10.0\CapaNego.81B9D119.Up2Date
+C:\Users\lusia\OneDrive - Universidad Central del Este\Septiembre-Diciembre 2026\Arquitectura de software\Proyectos en C#\CapaNegocio\obj\Debug\net10.0\CapaNegocio.dll
+C:\Users\lusia\OneDrive - Universidad Central del Este\Septiembre-Diciembre 2026\Arquitectura de software\Proyectos en C#\CapaNegocio\obj\Debug\net10.0\refint\CapaNegocio.dll
+C:\Users\lusia\OneDrive - Universidad Central del Este\Septiembre-Diciembre 2026\Arquitectura de software\Proyectos en C#\CapaNegocio\obj\Debug\net10.0\CapaNegocio.pdb
+C:\Users\lusia\OneDrive - Universidad Central del Este\Septiembre-Diciembre 2026\Arquitectura de software\Proyectos en C#\CapaNegocio\obj\Debug\net10.0\ref\CapaNegocio.dll
