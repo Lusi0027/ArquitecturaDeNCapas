@@ -72,6 +72,7 @@
             dataGridView1.RowHeadersWidth = 62;
             dataGridView1.Size = new Size(476, 329);
             dataGridView1.TabIndex = 24;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // buttonModificar
             // 
@@ -82,6 +83,7 @@
             buttonModificar.TabIndex = 22;
             buttonModificar.Text = "Modificar";
             buttonModificar.UseVisualStyleBackColor = true;
+            buttonModificar.Click += buttonModificar_Click;
             // 
             // buttonSalir
             // 
@@ -103,6 +105,7 @@
             buttonEliminar.TabIndex = 20;
             buttonEliminar.Text = "Eliminar";
             buttonEliminar.UseVisualStyleBackColor = true;
+            buttonEliminar.Click += buttonEliminar_Click;
             // 
             // buttonLimpiar
             // 
@@ -113,6 +116,7 @@
             buttonLimpiar.TabIndex = 19;
             buttonLimpiar.Text = "Limpiar";
             buttonLimpiar.UseVisualStyleBackColor = true;
+            buttonLimpiar.Click += buttonLimpiar_Click;
             // 
             // buttonAgregar
             // 
@@ -123,6 +127,7 @@
             buttonAgregar.TabIndex = 23;
             buttonAgregar.Text = "Agregar";
             buttonAgregar.UseVisualStyleBackColor = true;
+            buttonAgregar.Click += buttonAgregar_Click;
             // 
             // buttonIrProducto
             // 
@@ -146,6 +151,7 @@
             buttonDescargarPDF.TabIndex = 17;
             buttonDescargarPDF.Text = "Descargar PDF";
             buttonDescargarPDF.UseVisualStyleBackColor = false;
+            buttonDescargarPDF.Click += buttonDescargarPDF_Click_1;
             // 
             // label4
             // 
@@ -240,6 +246,7 @@
             Controls.Add(panel1);
             Name = "RegistroDeCategorias";
             Text = "Registro de categorias";
+            Load += RegistroDeCategorias_Load_1;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();

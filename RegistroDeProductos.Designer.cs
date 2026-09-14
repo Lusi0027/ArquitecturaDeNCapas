@@ -103,6 +103,7 @@
             buttonDescargarPDF.TabIndex = 3;
             buttonDescargarPDF.Text = "Descargar PDF";
             buttonDescargarPDF.UseVisualStyleBackColor = false;
+            buttonDescargarPDF.Click += buttonDescargarPDF_Click_1;
             // 
             // buttonIrCategoria
             // 
@@ -123,6 +124,7 @@
             dataGridView1.RowHeadersWidth = 62;
             dataGridView1.Size = new Size(476, 329);
             dataGridView1.TabIndex = 5;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // label3
             // 
@@ -222,6 +224,7 @@
             buttonAgregar.TabIndex = 4;
             buttonAgregar.Text = "Agregar";
             buttonAgregar.UseVisualStyleBackColor = true;
+            buttonAgregar.Click += buttonAgregar_Click;
             // 
             // buttonModificar
             // 
@@ -232,6 +235,7 @@
             buttonModificar.TabIndex = 4;
             buttonModificar.Text = "Modificar";
             buttonModificar.UseVisualStyleBackColor = true;
+            buttonModificar.Click += buttonModificar_Click;
             // 
             // buttonLimpiar
             // 
@@ -242,6 +246,7 @@
             buttonLimpiar.TabIndex = 4;
             buttonLimpiar.Text = "Limpiar";
             buttonLimpiar.UseVisualStyleBackColor = true;
+            buttonLimpiar.Click += buttonLimpiar_Click;
             // 
             // buttonEliminar
             // 
@@ -252,11 +257,12 @@
             buttonEliminar.TabIndex = 4;
             buttonEliminar.Text = "Eliminar";
             buttonEliminar.UseVisualStyleBackColor = true;
+            buttonEliminar.Click += buttonEliminar_Click;
             // 
             // buttonSalir
             // 
             buttonSalir.Font = new Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            buttonSalir.Location = new Point(745, 602);
+            buttonSalir.Location = new Point(745, 593);
             buttonSalir.Name = "buttonSalir";
             buttonSalir.Size = new Size(125, 40);
             buttonSalir.TabIndex = 4;
@@ -293,6 +299,7 @@
             Controls.Add(panel1);
             Name = "RegistroDeProductos";
             Text = "Registro de productos";
+            Load += RegistroDeProductos_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
